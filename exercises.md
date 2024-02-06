@@ -1,5 +1,7 @@
 # This is the header.
-## And a subheader, which has *italics*.
+## .. And a subheader, which has *italics*.
+
+.. And this text has **bold** text in it.
 
 `console.log("And this is a code block")`
 
