@@ -1,0 +1,19 @@
+name: Emil
+age: 24
+height_in_cm: 187
+weight_in_kg: "Not sure"
+eye_color: Brown
+hair_color: Brown
+favorite_color: Blue
+
+has_pet: true
+
+occupation(s):
+  - Student
+  - Substitute teacher
+
+hobbies:
+  - Cooking
+  - Coding
+  - Gaming
+  - Football
