@@ -1,0 +1,23 @@
+tasks:
+  - name: Delete the last folder you created
+    numbers: [1, 42, 52, 86, 88, 96, 98, 108, 138, 145, 170]
+    why: >
+      There is no built-in method in PowerShell to delete the last created folder. 
+      You need to specify the folder's path, e.g., "Remove-Item -Path .\folder_name -Recurse".
+
+  - name: Open a file in the terminal and see the content
+    numbers: [7, 59]
+    why: >
+      This can technically be done with "Get-Content -Path .\file-name", 
+      but the terminal output may not be readable.
+
+  - name: Output the content of any file in the directory
+    numbers: [17, 27, 54, 94, 119]
+    why: >
+      Same reason as above.
+
+  - name: Delete the last file you created
+    numbers: [24, 28, 34, 97, 112, 130, 144, 196]
+    why: >
+      There is no built-in method in PowerShell to delete the last created file. 
+      You need to specify the file's path, e.g., "Remove-Item -Path .\file_name".
